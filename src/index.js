@@ -149,6 +149,7 @@ export class Map extends React.Component {
           clickableIcons: !!this.props.clickableIcons,
           disableDefaultUI: this.props.disableDefaultUI,
           zoomControl: this.props.zoomControl,
+          zoomControlOptions: this.props.zoomControlOptions,
           mapTypeControl: this.props.mapTypeControl,
           scaleControl: this.props.scaleControl,
           streetViewControl: this.props.streetViewControl,
